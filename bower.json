@@ -1,0 +1,12 @@
+{
+  "name": "angularJS",
+  "description": "AngularJS Play Ground",
+  "version": "0.0.0",
+  "homepage": "https://github.com/someonehappyau/angularjs",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "angular": "1.3.x",
+    "bootstrap": "~3.1.1"
+  }
+}
