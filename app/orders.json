@@ -1,0 +1,36 @@
+[
+	{
+	 "nickname": "John",
+	 "MaleSmlBlk": 0,
+	 "MaleSmlWht": 1,
+	 "MaleMedBlk": 0,
+	 "MaleMedWht": 0,
+	 "MaleLgBlk":  0,
+	 "MaleLgWht":  0,
+	 "FemaleBlk":  0,
+	 "FemaleWht":  0
+	},
+	{
+	 "nickname": "MMC",
+	 "MaleSmlBlk": 0,
+	 "MaleSmlWht": 0,
+	 "MaleMedBlk": 0,
+	 "MaleMedWht": 5,
+	 "MaleLgBlk":  0,
+	 "MaleLgWht":  0,
+	 "FemaleBlk":  0,
+	 "FemaleWht":  0
+	},
+	{
+	 "nickname": "Happy",
+	 "MaleSmlBlk": 0,
+	 "MaleSmlWht": 1,
+	 "MaleMedBlk": 0,
+	 "MaleMedWht": 0,
+	 "MaleLgBlk":  1,
+	 "MaleLgWht":  0,
+	 "FemaleBlk":  3,
+	 "FemaleWht":  0
+	}
+
+]

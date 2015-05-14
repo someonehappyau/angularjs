@@ -1,0 +1,33 @@
+<div>
+	<h1>EdgeRider Tshirt</h1>
+	<p>{{orders}}</p>
+	Search: <input ng-model="query">
+	<table class="table table-bordered table-striped table-hover">
+		<thead>
+			<tr>
+				<th>Nickname</td>
+				<th>Male(Black Small 170cm)</td>
+				<th>Male(White Small 170cm)</td>
+				<th>Male(Black Medium  180cm)</td>
+				<th>Male(White Medium  180cm)</td>
+				<th>Male(Black Large 190cm)</td>
+				<th>Male(White Large 190cm)</td>
+				<th>Female(Black One Size)</td>
+				<th>Female(White One Size)</td>
+			</tr>
+		</thead>
+		<tbody>
+			<tr ng-repeat="order in orders | filter: query">
+				<td>{{order.nickname}}</td>
+				<td>{{order.MaleSmlBlk}}</td>
+				<td>{{order.MaleSmlWht}}</td>
+				<td>{{order.MaleMedBlk}}</td>
+				<td>{{order.MaleMedWht}}</td>
+				<td>{{order.MaleLgBlk}}</td>
+				<td>{{order.MaleLgWht}}</td>
+				<td>{{order.FemaleBlk}}</td>
+				<td>{{order.FemaleWht}}</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
